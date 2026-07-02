@@ -95,4 +95,5 @@ ax2.set_ylabel("RSI")
 ax2.legend(loc='upper left')
 
 plt.tight_layout()
+plt.savefig('thyao.png', dpi=150, bbox_inches='tight')
 plt.show()
