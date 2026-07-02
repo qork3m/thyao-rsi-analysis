@@ -79,8 +79,8 @@ ax1.text(0.99, 0.98, "Sources: TCMB, Yfinance",
 ax2.plot(df_THYAO.index, df_THYAO['RSI'], color='purple', label='RSI (14)')
 
 # RSI'ın 70 ve 30 bariyerlerini çiziyoruz
-ax2.axhline(70, color='red', linestyle='--', alpha=0.5)
-ax2.axhline(30, color='green', linestyle='--', alpha=0.5)
+ax2.axhline(70, color='black', linestyle='-', alpha=0.5)
+ax2.axhline(30, color='black', linestyle='-', alpha=0.5)
 
 # Her bir endeks için tarihleri döndürüp dikey çizgi ekliyoruz o tarihlere.
 for tarih in df_interest_rate_change_pos_dates:
