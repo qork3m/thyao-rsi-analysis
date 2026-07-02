@@ -18,4 +18,4 @@ benefits THYAO's dollar-based revenue model.
 pandas, matplotlib, evds, yfinance, python-dotenv
 
 ## Chart
-![THYAO RSI Chart](thyao_rsi.png)
+![THYAO RSI Chart](thyao.png)
